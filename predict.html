@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Webpage</title>
+    <style>
+    body {
+        background-color: #f8f8f8;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #007bff;
+        text-align: center;
+    }
+
+    .formContainer {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input[type="text"],
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+    
+</head>
+
+<body>
+    <div class="formContainer">
+    <h1> Result </h1>
+    <center><p> GPA Score for    {{StudentName}}    is   {{gpa_result}}  </p></center>
+    </div>
+    
+</body>
+</html>
